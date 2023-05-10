@@ -1,1 +1,6 @@
 This will create an executable file to save and run on any pc, without requiring any pre-installed software/packages.
+Run the exe file with the following command:
+cd C:\Users\me\Downloads\hydration_model_final_exe.dist #change if you have a different path
+hydration_model_final_exe.exe > output.txt #run it when you are in the same path where the exe file is located 
+
+Thus, the executable will show the cement hydration temperature prediction at different space x and time t, from the trained PINN-ET model.
